@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    font-family: 'Arial', sans-serif;
+}
+
+.stopwatch {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+#time {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.buttons button {
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0072ff;
+    color: #fff;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.buttons button:hover {
+    background: #005bb5;
+}
+
+.buttons button:active {
+    transform: scale(0.95);
+}
+
+.laps {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.laps ul {
+    list-style: none
